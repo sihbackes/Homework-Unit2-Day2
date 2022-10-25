@@ -17,7 +17,9 @@ function changeBackgroundColor() {
   background.style.backgroundColor = "yellow";
 }
 // Write a JavaScript functionality to remove the “twitter” link under the “Elsewhere” section in the aside element. It should happen when the page loads, automatically
-
+function removeLink() {
+  liList = document.querySelectorAll(".list-unstyled > li");
+}
 // Write a JavaScript functionality to remove the first 50 characters in the first paragraph for every blog post
 // Write a JavaScript functionality to add a new Blog Post (div with title and text)
 // Write a JavaScript functionality to remove the last Blog Post when the user clicks on the "Older" button
