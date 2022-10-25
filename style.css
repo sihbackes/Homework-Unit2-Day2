@@ -43,7 +43,7 @@ span:nth-child(even) {
 /* .list-unstyled.mb-0 {
 
 } */
-aside .p-4 .mb-0 {
+.list-unstyled.mb-0 {
   background-color: indianred;
 }
 /* 8- Write a selector to target the second blog-post author*/
