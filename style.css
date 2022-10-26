@@ -40,9 +40,6 @@ span:nth-child(even) {
   color: brown;
 }
 /* 7- Write a selector to target all the <li> into the first ordered-list in the sidebar ( Archives )*/
-/* .list-unstyled.mb-0 {
-
-} */
 .list-unstyled.mb-0 {
   background-color: indianred;
 }

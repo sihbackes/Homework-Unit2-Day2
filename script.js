@@ -3,6 +3,7 @@
 function addNewLink() {
   parentElement = document.querySelector(".nav");
   newlink = document.createElement("span");
+
   newlink.appendChild(document.createTextNode("New Link"));
   parentElement.appendChild(newlink);
 }
@@ -61,4 +62,21 @@ function removeLastPost() {
 
 // Write a JavaScript functionality that will create an alert with the name of the author every time the user hovers the mouse on an author's name
 
-// EXTRA Write a JavaScript functionality that will remove the corresponding parent card from the DOM, upon clicking on their “Continue reading” link
+function displayAuthorName() {
+  let allAuthors = document.querySelectorAll(".blog-post-meta a");
+  console.log(allAuthors);
+  for (let i = 0; i < allAuthors.length; i++) {
+    allAuthors[i].addEventListener("mouseover", () => {
+      alert(allAuthors[i].innerText);
+    });
+  }
+}
+
+displayAuthorName();
+
+// EXTRA Write a JavaScript functionality that will remove 
+//the corresponding parent card from the DOM, upon clicking on their “Continue reading” link
+
+function removeCard( {
+  
+})
